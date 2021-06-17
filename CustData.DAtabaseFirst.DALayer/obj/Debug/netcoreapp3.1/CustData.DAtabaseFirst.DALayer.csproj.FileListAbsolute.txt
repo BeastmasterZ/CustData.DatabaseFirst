@@ -1,0 +1,12 @@
+D:\proj-fies\Csharp\CustData.DatabaseFirst\CustData.DAtabaseFirst.DALayer\bin\Debug\netcoreapp3.1\CustData.DAtabaseFirst.DALayer.deps.json
+D:\proj-fies\Csharp\CustData.DatabaseFirst\CustData.DAtabaseFirst.DALayer\bin\Debug\netcoreapp3.1\CustData.DAtabaseFirst.DALayer.runtimeconfig.json
+D:\proj-fies\Csharp\CustData.DatabaseFirst\CustData.DAtabaseFirst.DALayer\bin\Debug\netcoreapp3.1\CustData.DAtabaseFirst.DALayer.runtimeconfig.dev.json
+D:\proj-fies\Csharp\CustData.DatabaseFirst\CustData.DAtabaseFirst.DALayer\bin\Debug\netcoreapp3.1\CustData.DAtabaseFirst.DALayer.dll
+D:\proj-fies\Csharp\CustData.DatabaseFirst\CustData.DAtabaseFirst.DALayer\bin\Debug\netcoreapp3.1\CustData.DAtabaseFirst.DALayer.pdb
+D:\proj-fies\Csharp\CustData.DatabaseFirst\CustData.DAtabaseFirst.DALayer\obj\Debug\netcoreapp3.1\CustData.DAtabaseFirst.DALayer.csprojAssemblyReference.cache
+D:\proj-fies\Csharp\CustData.DatabaseFirst\CustData.DAtabaseFirst.DALayer\obj\Debug\netcoreapp3.1\CustData.DAtabaseFirst.DALayer.AssemblyInfoInputs.cache
+D:\proj-fies\Csharp\CustData.DatabaseFirst\CustData.DAtabaseFirst.DALayer\obj\Debug\netcoreapp3.1\CustData.DAtabaseFirst.DALayer.AssemblyInfo.cs
+D:\proj-fies\Csharp\CustData.DatabaseFirst\CustData.DAtabaseFirst.DALayer\obj\Debug\netcoreapp3.1\CustData.DAtabaseFirst.DALayer.csproj.CoreCompileInputs.cache
+D:\proj-fies\Csharp\CustData.DatabaseFirst\CustData.DAtabaseFirst.DALayer\obj\Debug\netcoreapp3.1\CustData.DAtabaseFirst.DALayer.dll
+D:\proj-fies\Csharp\CustData.DatabaseFirst\CustData.DAtabaseFirst.DALayer\obj\Debug\netcoreapp3.1\CustData.DAtabaseFirst.DALayer.pdb
+D:\proj-fies\Csharp\CustData.DatabaseFirst\CustData.DAtabaseFirst.DALayer\obj\Debug\netcoreapp3.1\CustData.DAtabaseFirst.DALayer.genruntimeconfig.cache
