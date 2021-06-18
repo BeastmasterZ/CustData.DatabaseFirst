@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 #nullable disable
 
-namespace CustData.DAtabaseFirst.DALayer.Models
+namespace CustData.DatabaseFirst.DALayer.Models
 {
     public partial class Userdatum
     {

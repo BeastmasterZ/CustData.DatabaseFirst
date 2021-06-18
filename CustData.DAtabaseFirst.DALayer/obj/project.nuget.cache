@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ZKjg+iFChXLY0jIsPgqWkCED82DFpe7O16oi1yusRdJFYspQ+LPh29KRTwHh45+pkP1b65OJjFN8T0csJ6xfvA==",
+  "dgSpecHash": "4wKs36yjeOCd4blfIFLb4wVr0rMNUmRDRmXmYQj3ATxN1t6QgJPpAb8fgxv/F9/giu7YYTEPirxixpUkC0t37A==",
   "success": true,
-  "projectFilePath": "D:\\proj-fies\\Csharp\\CustData.DatabaseFirst\\CustData.DAtabaseFirst.DALayer\\CustData.DAtabaseFirst.DALayer.csproj",
+  "projectFilePath": "D:\\proj-fies\\Csharp\\CustData.DatabaseFirst\\CustData.DatabaseFirst.DALayer\\CustData.DatabaseFirst.DALayer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\gahar\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\gahar\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

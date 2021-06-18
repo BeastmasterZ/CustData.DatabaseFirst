@@ -5802,11 +5802,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\proj-fies\\Csharp\\CustData.DatabaseFirst\\CustData.DAtabaseFirst.DALayer\\CustData.DAtabaseFirst.DALayer.csproj",
-      "projectName": "CustData.DAtabaseFirst.DALayer",
-      "projectPath": "D:\\proj-fies\\Csharp\\CustData.DatabaseFirst\\CustData.DAtabaseFirst.DALayer\\CustData.DAtabaseFirst.DALayer.csproj",
+      "projectUniqueName": "D:\\proj-fies\\Csharp\\CustData.DatabaseFirst\\CustData.DatabaseFirst.DALayer\\CustData.DatabaseFirst.DALayer.csproj",
+      "projectName": "CustData.DatabaseFirst.DALayer",
+      "projectPath": "D:\\proj-fies\\Csharp\\CustData.DatabaseFirst\\CustData.DatabaseFirst.DALayer\\CustData.DatabaseFirst.DALayer.csproj",
       "packagesPath": "C:\\Users\\gahar\\.nuget\\packages\\",
-      "outputPath": "D:\\proj-fies\\Csharp\\CustData.DatabaseFirst\\CustData.DAtabaseFirst.DALayer\\obj\\",
+      "outputPath": "D:\\proj-fies\\Csharp\\CustData.DatabaseFirst\\CustData.DatabaseFirst.DALayer\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\gahar\\AppData\\Roaming\\NuGet\\NuGet.Config",

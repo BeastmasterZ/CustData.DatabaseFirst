@@ -17,3 +17,4 @@ create table Userdata
 	[Country] CHAR(20) NOT NULL,
 	[Purpose] CHAR(8) NOT NULL CONSTRAINT user_chk_purpose CHECK(Purpose IN ('Business','Delivery','Visiting','Other'))
 )
+
