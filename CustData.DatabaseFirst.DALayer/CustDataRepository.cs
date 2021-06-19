@@ -62,6 +62,55 @@ namespace CustData.DatabaseFirst.DALayer
             return userdata;
         }
 
+        public bool AddDetails(Userdatum user)
+        {
+            bool status = false;
+            try
+            {
+                context.Userdata.Add(user);
+                context.SaveChanges();
+                status = true;
+            }
+            catch(Exception ex)
+            {
+                Console.WriteLine(ex.ToString());
+                status = false;
+            }
+
+            return status;
+        }
+
+        public bool AddDetailsbyparam(string fname, string lname, string email, decimal phone, string gender, string address1, string address2, string city, string state, string country, string purpose)
+        {
+            bool status = false;
+            try
+            {
+                Userdatum data = new Userdatum();
+                data.Fname = fname;
+                data.Lname = lname;
+                data.Email = email;
+                data.Phone = phone;
+                data.Gender = gender;
+                data.Address1 = address1;
+                data.Address2 = address2;
+                data.City = city;
+                data.State = state;
+                data.Country = country;
+                data.Purpose = purpose;
+
+                context.Userdata.Add(data);
+                context.SaveChanges();
+                status = true;
+            }
+            catch(Exception ex)
+            {
+                Console.WriteLine(ex.ToString());
+                status = false;
+            }
+
+            return status;
+        }
+
 
     }
 }
