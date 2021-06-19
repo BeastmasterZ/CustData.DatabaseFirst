@@ -111,6 +111,85 @@ namespace CustData.DatabaseFirst.DALayer
             return status;
         }
 
+        public bool UpdateName(decimal userId, string fname, string lname)
+        {
 
+            bool status = false;
+            Userdatum data = context.Userdata.Find(userId);
+            try
+            {
+                if(data!=null)
+                {
+                    data.Fname = fname;
+                    data.Lname = lname;
+                    context.SaveChanges();
+                    status = true;
+
+                }
+            }
+            catch(Exception ex)
+            {
+                Console.WriteLine(ex.ToString());
+                status = false;
+                
+            }
+
+
+
+            return status;
+        }
+
+        public bool UpdateEmail(decimal userId, string email)
+        {
+            bool status = false;
+            Userdatum data = context.Userdata.Find(userId);
+            try
+            {
+                if (data != null)
+                {
+                    data.Email = email;
+                    context.SaveChanges();
+                    status = true;
+
+                }
+            }
+            catch(Exception ex)
+            {
+                Console.WriteLine(ex.ToString());
+                status = false;
+
+            }
+
+            return status;
+        }
+
+        public bool UpdateAddress(decimal userId, string address1, string address2,string city, string state , string country)
+        {
+            bool status = false;
+            Userdatum data = context.Userdata.Find(userId);
+
+            try
+            {
+                if (data != null)
+                {
+                    data.Address1 = address1;
+                    data.Address2 = address2;
+                    data.City = city;
+                    data.State = state;
+                    data.Country = country;
+                    context.SaveChanges();
+                    status = true;
+
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.ToString());
+                status = false;
+
+            }
+
+            return status;
+        }
     }
 }

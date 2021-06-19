@@ -16,22 +16,36 @@ namespace CustData.ConsoleUI
             //    Console.WriteLine("{0}",usr.UserId);
             //}
 
-            Userdatum data = new Userdatum();
-            data.Fname = "peter";
-            data.Lname = "parker";
-            data.Email = "peter@parker.com";
-            data.Phone = 9876543211;
-            data.Gender = "male";
-            data.Address1 = "Seattle";
-            data.Address2 = "";
-            data.City = "New Jersy";
-            data.State = "New jersy state";
-            data.Country = "USA";
-            data.Purpose = "Visiting";
 
-            bool result = repository.AddDetails(data);
 
-            if(result)
+            //Userdatum data = new Userdatum();
+            //data.Fname = "peter";
+            //data.Lname = "parker";
+            //data.Email = "peter@parker.com";
+            //data.Phone = 9876543211;
+            //data.Gender = "male";
+            //data.Address1 = "Seattle";
+            //data.Address2 = "";
+            //data.City = "New Jersy";
+            //data.State = "New jersy state";
+            //data.Country = "USA";
+            //data.Purpose = "Visiting";
+
+            //bool result = repository.AddDetails(data);
+
+            //if(result)
+            //{
+            //    Console.WriteLine("Success");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Unsuccessful");
+            //}
+
+
+
+            bool result = repository.UpdateName(2, "John","wick");
+            if (result)
             {
                 Console.WriteLine("Success");
             }
@@ -39,8 +53,6 @@ namespace CustData.ConsoleUI
             {
                 Console.WriteLine("Unsuccessful");
             }
-
-
         }
     }
 }
