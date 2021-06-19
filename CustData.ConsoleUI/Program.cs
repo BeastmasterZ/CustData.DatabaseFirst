@@ -44,7 +44,19 @@ namespace CustData.ConsoleUI
 
 
 
-            bool result = repository.UpdateName(2, "John","wick");
+            //bool result = repository.UpdateName(2, "John","wick");
+            //if (result)
+            //{
+            //    Console.WriteLine("Success");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Unsuccessful");
+            //}
+
+
+
+            bool result = repository.Deleteuser(3);
             if (result)
             {
                 Console.WriteLine("Success");

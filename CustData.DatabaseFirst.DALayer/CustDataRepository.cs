@@ -191,5 +191,32 @@ namespace CustData.DatabaseFirst.DALayer
 
             return status;
         }
+
+        public bool Deleteuser(decimal userId)
+        {
+            bool status = false;
+            Userdatum data = context.Userdata.Find(userId);
+            try
+            {
+                if (data != null)
+                {
+                    context.Userdata.Remove(data);
+                    context.SaveChanges();
+                    status = true;
+                }
+                else
+                {
+                    status = false;
+                }
+            }
+            catch(Exception ex)
+            {
+                Console.WriteLine(ex.ToString());
+                status = false;
+
+            }
+
+            return status;
+        }
     }
 }
