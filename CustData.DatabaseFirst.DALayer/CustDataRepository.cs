@@ -4,6 +4,7 @@ using System.Text;
 using CustData.DatabaseFirst.DALayer;
 using CustData.DatabaseFirst.DALayer.Models;
 using System.Linq;
+using Microsoft.EntityFrameworkCore;
 
 namespace CustData.DatabaseFirst.DALayer
 {
@@ -29,5 +30,38 @@ namespace CustData.DatabaseFirst.DALayer
 
             return userdata;
         }
+
+        public List<Userdatum> GetById(decimal userId)
+        {
+            List<Userdatum> userdata = null;
+            try
+            {
+                userdata = context.Userdata.Where(u => u.UserId == userId).ToList();
+            }
+            catch(Exception ex)
+            {
+                Console.WriteLine(ex.ToString());
+                userdata = null;
+            }
+
+            return userdata;
+        }
+
+        public List<Userdatum> GetByUserName(string Uname)
+        {
+            List<Userdatum> userdata = null;
+            try
+            {
+                userdata = context.Userdata.Where(u => EF.Functions.Like(u.Fname + u.Lname, Uname)).ToList();
+            }
+            catch(Exception ex)
+            {
+                Console.WriteLine(ex.ToString());
+                userdata = null;
+            }
+            return userdata;
+        }
+
+
     }
 }

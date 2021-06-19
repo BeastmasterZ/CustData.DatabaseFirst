@@ -18,3 +18,6 @@ create table Userdata
 	[Purpose] CHAR(8) NOT NULL CONSTRAINT user_chk_purpose CHECK(Purpose IN ('Business','Delivery','Visiting','Other'))
 )
 
+use customer;
+
+insert into Userdata values('john','Wick','john@wick.com',9876543210,'MALE','Hotel Continental','Brookly','New york city','New York','USA','Other')
